@@ -5,7 +5,7 @@ import { json, error } from "@sveltejs/kit";
 export function GET({ params }) {
   const { date } = params;
 
-  const filePath = path.resolve("src/lib/Bin/Sleep", `${date}.json`);
+  const filePath = path.resolve("src/lib/bin/sleep", `${date}.json`);
 
   if (!fs.existsSync(filePath)) {
     throw error(404, `No Bin sleep file for ${date}`);

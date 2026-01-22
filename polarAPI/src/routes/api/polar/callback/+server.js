@@ -1,43 +1,43 @@
-import { redirect, error } from '@sveltejs/kit';
-import { env } from '$env/dynamic/private';
+// import { redirect, error } from '@sveltejs/kit';
+// import { env } from '$env/dynamic/private';
 
 
-function basicAuth(id, secret) {
-  return 'Basic ' + Buffer.from(`${id}:${secret}`).toString('base64');
-}
+// function basicAuth(id, secret) {
+//   return 'Basic ' + Buffer.from(`${id}:${secret}`).toString('base64');
+// }
 
-export async function GET({ url }) {
-  const code = url.searchParams.get('code');
-  if (!code) throw error(400, 'Missing code');
+// export async function GET({ url }) {
+//   const code = url.searchParams.get('code');
+//   if (!code) throw error(400, 'Missing code');
 
-  const clientId = env.POLAR_CLIENT_ID;
-  const clientSecret = env.POLAR_CLIENT_SECRET;
-  const redirectUri = env.POLAR_REDIRECT_URI;
+//   const clientId = env.POLAR_CLIENT_ID;
+//   const clientSecret = env.POLAR_CLIENT_SECRET;
+//   const redirectUri = env.POLAR_REDIRECT_URI;
 
-  if (!clientId || !clientSecret || !redirectUri) {
-    console.log('ENV CHECK', { clientId, hasSecret: !!clientSecret, redirectUri });
-    throw error(500, 'Missing POLAR env vars');
-  }
+//   if (!clientId || !clientSecret || !redirectUri) {
+//     console.log('ENV CHECK', { clientId, hasSecret: !!clientSecret, redirectUri });
+//     throw error(500, 'Missing POLAR env vars');
+//   }
 
-  const body = new URLSearchParams();
-  body.set('grant_type', 'authorization_code');
-  body.set('code', code);
-  body.set('redirect_uri', redirectUri);
+//   const body = new URLSearchParams();
+//   body.set('grant_type', 'authorization_code');
+//   body.set('code', code);
+//   body.set('redirect_uri', redirectUri);
 
-  const res = await fetch('https://polarremote.com/v2/oauth2/token', {
-    method: 'POST',
-    headers: {
-      Authorization: basicAuth(clientId, clientSecret),
-      'Content-Type': 'application/x-www-form-urlencoded'
-    },
-    body
-  });
+//   const res = await fetch('https://polarremote.com/v2/oauth2/token', {
+//     method: 'POST',
+//     headers: {
+//       Authorization: basicAuth(clientId, clientSecret),
+//       'Content-Type': 'application/x-www-form-urlencoded'
+//     },
+//     body
+//   });
 
-  const data = await res.json();
-  if (!res.ok) {
-    console.log('Token exchange failed:', data);
-    throw error(res.status, 'Token exchange failed');
-  }
+//   const data = await res.json();
+//   if (!res.ok) {
+//     console.log('Token exchange failed:', data);
+//     throw error(res.status, 'Token exchange failed');
+//   }
 
-  throw redirect(302, '/api/polar/register');
-}
+//   throw redirect(302, '/api/polar/register');
+// }
