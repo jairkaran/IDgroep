@@ -62,23 +62,30 @@
 
   $: date = $page.params.date ?? "2025-12-02";
 
-  async function loadSleep(forDate) {
-    loading = true;
-    errorMsg = "";
-    sleep = null;
+async function loadSleep(forDate) {
+  loading = true;
+  errorMsg = "";
+  sleep = null;
 
-    try {
-      const res = await fetch(`/api/bin/sleep/${forDate}`, { cache: "no-store" });
-      if (!res.ok) throw new Error(`Sleep fetch failed (${res.status})`);
-      const payload = await res.json();
-      sleep = payload?.data ?? payload;
-      if (!sleep) throw new Error("No sleep data found");
-    } catch (e) {
-      errorMsg = e?.message ?? "Unknown error";
-    } finally {
-      loading = false;
+  try {
+    const url = `/api/bin/sleep/${forDate}`;
+    const res = await fetch(url, { cache: "no-store" });
+
+    if (!res.ok) {
+      const txt = await res.text().catch(() => "");
+      throw new Error(`Sleep fetch failed (${res.status}) ${txt}`);
     }
+
+    const payload = await res.json();
+    sleep = payload?.data ?? payload;
+    if (!sleep) throw new Error("No sleep data found");
+  } catch (e) {
+    errorMsg = e?.message ?? "Unknown error";
+  } finally {
+    loading = false;
   }
+}
+
 
   $: if (date) loadSleep(date);
 
