@@ -1,92 +1,84 @@
 <script>
-  // 0..100
-  export let percent = 0;
-  export let size = 170;
+  export let percent = 0;        // 0..100
+  export let size = 180;
+  export let moonSrc = "/moon.png";
   export let label = "Recharged";
 
-  // Pad naar je moon image (bijv. static/moon.png)
-  export let moonSrc = "C:\Users\jkara\Documents\IDgroep\polarAPI\static\moon.png";
-
   const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
-  $: p = clamp(Number(percent) || 0, 0, 100) / 100;
+  $: p = clamp(percent, 0, 100) / 100;
 
-  // SVG geometry
-  $: r = size / 2;
+  // Terminator position (0 = left, 1 = right)
+  $: x = p * 100;
 
-  // Shadow circle shift: hoger p => shadow verder naar rechts => minder donker zichtbaar
-  // Deze waarde bepaalt hoe “sterk” de curve is. 1.7–2.0 voelt meestal goed.
-  $: dx = (p * 2 - 1) * r * 1.85;
+  // text sizes
+  $: pctSize = Math.round(size * 0.20);
+  $: lblSize = Math.round(size * 0.095);
 
-  // Bij lage vulling wat donkerder, bij hoge vulling zachter
-  $: shadowOpacity = 0.75 - p * 0.35; // 0.75..0.40
-
-  // Unieke ids voor gradients/masks zodat meerdere gauges op 1 page veilig zijn
-  $: uid = Math.random().toString(36).slice(2);
-  $: clipId = `clip_${uid}`;
-  $: shadowGradId = `shadowGrad_${uid}`;
-  $: blurId = `blur_${uid}`;
+  // unique ids
+  const uid = Math.random().toString(36).slice(2);
 </script>
 
-<div class="wrap" style="width:{size}px; height:{size}px;">
+<div
+  class="wrap"
+  style={`width:${size}px; height:${size}px; --pctSize:${pctSize}px; --lblSize:${lblSize}px`}
+>
   <svg
-    class="svg"
     width={size}
     height={size}
     viewBox={`0 0 ${size} ${size}`}
-    aria-label="Moon gauge"
+    class="svg"
   >
     <defs>
-      <clipPath id={clipId}>
-        <circle cx={r} cy={r} r={r} />
+      <!-- perfect circle mask -->
+      <clipPath id={`clip-${uid}`}>
+        <circle cx={size / 2} cy={size / 2} r={size / 2} />
       </clipPath>
 
-      <!-- Soft shadow gradient so the terminator edge feels realistic -->
-      <radialGradient id={shadowGradId} cx="35%" cy="50%" r="70%">
-        <stop offset="0%" stop-color="rgba(0,0,0,0.0)" />
-        <stop offset="55%" stop-color={`rgba(0,0,0,${shadowOpacity * 0.65})`} />
-        <stop offset="100%" stop-color={`rgba(0,0,0,${shadowOpacity})`} />
-      </radialGradient>
+      <!-- Figma-style terminator -->
+<linearGradient id={`shade-${uid}`} x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset={`${x - 2}%`} stop-color="rgba(6,12,32,0)" />
+  <stop offset={`${x}%`} stop-color="rgba(6,12,32,0.88)" />
+  <stop offset="100%" stop-color="rgba(6,12,32,0.96)" />
+</linearGradient>
 
-      <filter id={blurId} x="-40%" y="-40%" width="180%" height="180%">
-        <feGaussianBlur stdDeviation="1.6" />
-      </filter>
+
+      <!-- subtle light rim on edge -->
+      <linearGradient id={`rim-${uid}`} x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset={`${x - 1}%`} stop-color="rgba(255,255,255,0)" />
+        <stop offset={`${x}%`} stop-color="rgba(255,255,255,0.18)" />
+        <stop offset={`${x + 1}%`} stop-color="rgba(255,255,255,0)" />
+      </linearGradient>
     </defs>
 
-    <!-- Moon image -->
-    <g clip-path={`url(#${clipId})`}>
+    <g clip-path={`url(#clip-${uid})`}>
+      <!-- moon -->
       <image
         href={moonSrc}
-        x="0"
-        y="0"
         width={size}
         height={size}
         preserveAspectRatio="xMidYMid slice"
       />
 
-      <!-- Dynamic shadow: a shifted circle with gradient + blur -->
-      <circle
-        cx={r + dx}
-        cy={r}
-        r={r * 1.18}
-        fill={`url(#${shadowGradId})`}
-        filter={`url(#${blurId})`}
+      <!-- dark side -->
+      <rect
+        width={size}
+        height={size}
+        fill={`url(#shade-${uid})`}
       />
 
-      <!-- Subtle rim light to match “real” moon contrast, not a glow -->
-      <circle
-        cx={r}
-        cy={r}
-        r={r - 0.5}
-        fill="none"
-        stroke="rgba(255,255,255,0.08)"
-        stroke-width="1"
+      <!-- rim light -->
+      <rect
+        width={size}
+        height={size}
+        fill={`url(#rim-${uid})`}
+        opacity="0.6"
       />
     </g>
   </svg>
 
   <div class="text">
-    <div class="pct">{Math.round(p * 100)}%</div>
-    <div class="lbl">{label}</div>
+    <div class="moonPct">{Math.round(p * 100)}%</div>
+    <div class="moonLbl">{label}</div>
   </div>
 </div>
 
@@ -99,33 +91,27 @@
 
   .svg {
     display: block;
-    border-radius: 999px;
+    border-radius: 50%;
     overflow: hidden;
-
-    /* geen glow, wel diepte */
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
   }
 
   .text {
     position: absolute;
     text-align: center;
-    color: rgba(255, 255, 255, 0.92);
-    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-    user-select: none;
+    color: rgba(255,255,255,0.92);
     pointer-events: none;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   }
 
-  .pct {
-    font-size: 44px;
+  .moonPct {
+    font-size: var(--pctSize);
+    font-weight: 650;
     line-height: 1;
-    font-weight: 700;
-    letter-spacing: 0.2px;
   }
 
-  .lbl {
-    margin-top: 4px;
-    font-size: 14px;
-    opacity: 0.9;
-    letter-spacing: 0.2px;
+  .moonLbl {
+    font-size: var(--lblSize);
+    opacity: 0.8;
+    margin-top: 2px;
   }
 </style>

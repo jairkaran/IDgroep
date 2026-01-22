@@ -2,52 +2,60 @@
   export let sleep = null;
 
   function fmtHM(seconds) {
-    if (!seconds || seconds <= 0) return '0 hrs 0 min';
-    const h = Math.floor(seconds / 3600);
-    const m = Math.round((seconds % 3600) / 60);
+    const s = Number(seconds) || 0;
+    if (s <= 0) return "0 hrs 0 min";
+    const h = Math.floor(s / 3600);
+    const m = Math.round((s % 3600) / 60);
     return `${h} hrs ${m} min`;
   }
 
   function pct(part, total) {
-    if (!total) return 0;
-    return Math.max(0, Math.min(100, (part / total) * 100));
+    const p = Number(part) || 0;
+    const t = Number(total) || 0;
+    if (t <= 0) return 0;
+    return Math.max(0, Math.min(100, (p / t) * 100));
   }
 
-  $: total = sleep ? (sleep.light_sleep + sleep.deep_sleep + sleep.rem_sleep) : 0;
+  // ✅ force numbers + safe defaults
+  $: lightSec = Number(sleep?.light_sleep) || 0;
+  $: deepSec = Number(sleep?.deep_sleep) || 0;
+  $: remSec = Number(sleep?.rem_sleep) || 0;
 
-  $: lightPct = pct(sleep?.light_sleep ?? 0, total);
-  $: deepPct = pct(sleep?.deep_sleep ?? 0, total);
-  $: remPct = pct(sleep?.rem_sleep ?? 0, total);
+  $: total = lightSec + deepSec + remSec;
+
+  $: lightPct = pct(lightSec, total);
+  $: deepPct = pct(deepSec, total);
+  $: remPct = pct(remSec, total);
 </script>
 
 <div class="wrap">
   <div class="row">
     <div class="left">
       <div class="k">Light sleep:</div>
-      <div class="v">{fmtHM(sleep?.light_sleep ?? 0)}</div>
+      <div class="v">{fmtHM(lightSec)}</div>
     </div>
     <div class="bar">
-      <span class="fill light" style="width:{lightPct}%"></span>
+      <span class="fill light" style={`width:${lightPct.toFixed(1)}%`}></span>
     </div>
   </div>
 
   <div class="row">
     <div class="left">
       <div class="k">Deep sleep:</div>
-      <div class="v">{fmtHM(sleep?.deep_sleep ?? 0)}</div>
+      <div class="v">{fmtHM(deepSec)}</div>
     </div>
     <div class="bar">
-      <span class="fill deep" style="width:{deepPct}%"></span>
+      <span class="fill deep" style={`width:${deepPct.toFixed(1)}%`}></span>
     </div>
   </div>
 
   <div class="row">
     <div class="left">
       <div class="k">REM sleep:</div>
-      <div class="v">{fmtHM(sleep?.rem_sleep ?? 0)}</div>
+      <div class="v">{fmtHM(remSec)}</div>
     </div>
     <div class="bar">
-      <span class="fill rem" style="width:{remPct}%"></span>
+      <span class="fill rem" style={`width:${remPct.toFixed(1)}%`}></span>
     </div>
   </div>
 

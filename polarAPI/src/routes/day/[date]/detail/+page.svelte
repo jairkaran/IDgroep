@@ -1,11 +1,9 @@
 <script>
-  import { onMount } from "svelte";
+  import { page } from "$app/stores";
+  import { goto } from "$app/navigation";
   import StarBackground from "$lib/components/StarBackground.svelte";
+  import MoonGauge from "$lib/components/MoonGauge.svelte";
 
-  export let data; // komt van route params (SvelteKit)
-
-  // verwacht: /day/2025-12-02/detail
-  let date = data?.date ?? "2025-12-02";
 
   let loading = true;
   let errorMsg = "";
@@ -39,7 +37,11 @@
 
   function prettyDate(dateStr) {
     const d = new Date(`${dateStr}T00:00:00`);
-    return d.toLocaleDateString("nl-NL", { day: "numeric", month: "numeric", year: "numeric" });
+    return d.toLocaleDateString("nl-NL", {
+      day: "numeric",
+      month: "numeric",
+      year: "numeric"
+    });
   }
 
   function secondsToHhMm(seconds) {
@@ -56,36 +58,26 @@
     return `${pad2(d.getHours())}:${pad2(d.getMinutes())}`;
   }
 
-  // Recharge %: pak sleep_score als die er is, anders sleep_charge (1..5) naar %
   function rechargePercent(s) {
     if (!s) return 0;
     if (typeof s.sleep_score === "number") return clamp(Math.round(s.sleep_score), 0, 100);
-    if (typeof s.sleep_charge === "number") return clamp(Math.round((s.sleep_charge / 5) * 100), 0, 100);
+    if (typeof s.sleep_charge === "number")
+      return clamp(Math.round((s.sleep_charge / 5) * 100), 0, 100);
     return 0;
   }
 
-  // Maan zonder rare witte haze: geen globale glow, alleen subtiel shadow
-  function moonFillStyle(percent) {
-    // we maken een "terminator" via inset shadow: hoe hoger %, hoe minder donker vlak
-    const p = clamp(percent, 0, 100);
-    const darkness = 100 - p; // 0 = vol, 100 = nieuw
-    // translate darkness to shadow offset
-    const offset = (darkness / 100) * 48; // px
-    return `
-      box-shadow:
-        0 16px 30px rgba(0,0,0,0.55),
-        inset ${offset}px 0 0 rgba(0,0,0,0.65),
-        inset 0 0 0 1px rgba(255,255,255,0.06);
-    `;
-  }
+  // ✅ datum altijd uit de route
+  $: date = $page.params.date ?? "2025-12-02";
 
-  async function loadSleep() {
+  async function loadSleep(forDate) {
     loading = true;
     errorMsg = "";
     sleep = null;
 
     try {
-      const res = await fetch(`/api/bin/sleep/${date}`);
+      const res = await fetch(`/api/bin/sleep/${forDate}`, {
+        cache: "no-store"
+      });
       if (!res.ok) throw new Error(`Sleep fetch failed (${res.status})`);
       const payload = await res.json();
       sleep = payload?.data ?? payload;
@@ -97,22 +89,24 @@
     }
   }
 
-  onMount(loadSleep);
+  // ✅ herladen bij datum-wijziging
+  $: if (date) loadSleep(date);
 
   $: pct = rechargePercent(sleep);
 
-  // Polar seconds
   $: lightSeconds = sleep?.light_sleep ?? 0;
   $: deepSeconds = sleep?.deep_sleep ?? 0;
   $: remSeconds = sleep?.rem_sleep ?? 0;
   $: totalSeconds = (lightSeconds + deepSeconds + remSeconds) || 0;
 
-  function goPrev() {
-    window.location.href = `/day/${addDays(date, -1)}/detail`;
+  async function goPrev() {
+    await goto(`/day/${addDays(date, -1)}/detail`, { invalidateAll: true });
   }
-  function goNext() {
-    window.location.href = `/day/${addDays(date, +1)}/detail`;
+
+  async function goNext() {
+    await goto(`/day/${addDays(date, +1)}/detail`, { invalidateAll: true });
   }
+
 </script>
 
 <div class="page">
@@ -120,14 +114,14 @@
 
   <div class="content">
     <div class="topbar">
-      <button class="nav" on:click={goPrev} aria-label="Vorige dag">‹</button>
+      <button class="nav" on:click={goPrev}>‹</button>
 
       <div class="dateBlock">
         <div class="weekday">{weekdayLabel(date)}</div>
         <div class="date">{prettyDate(date)}</div>
       </div>
 
-      <button class="nav" on:click={goNext} aria-label="Volgende dag">›</button>
+      <button class="nav" on:click={goNext}>›</button>
     </div>
 
     {#if loading}
@@ -136,11 +130,9 @@
       <div class="state error">{errorMsg}</div>
     {:else}
       <div class="moonWrap">
-        <div class="moon" style={moonFillStyle(pct)}>
-          <div class="pct">{pct}%</div>
-          <div class="sub">Recharged</div>
-        </div>
-      </div>
+  <MoonGauge percent={pct} size={180} label="Recharged" moonSrc="/moon.png" />
+</div>
+
 
       <div class="card">
         <div class="row times">
@@ -148,7 +140,6 @@
             <div class="label">Begin sleep</div>
             <div class="value">{timeFromIso(sleep.sleep_start_time)}</div>
           </div>
-
           <div class="t right">
             <div class="label">End sleep</div>
             <div class="value">{timeFromIso(sleep.sleep_end_time)}</div>
@@ -158,7 +149,10 @@
         <div class="row barRow">
           <div class="label2">Light Sleep</div>
           <div class="bar">
-            <div class="fill light" style={`width:${totalSeconds ? (lightSeconds / totalSeconds) * 100 : 0}%`}></div>
+            <div
+              class="fill light"
+              style={`width:${totalSeconds ? (lightSeconds / totalSeconds) * 100 : 0}%`}
+            ></div>
           </div>
           <div class="dur">{secondsToHhMm(lightSeconds)}</div>
         </div>
@@ -166,7 +160,10 @@
         <div class="row barRow">
           <div class="label2">Deep Sleep</div>
           <div class="bar">
-            <div class="fill deep" style={`width:${totalSeconds ? (deepSeconds / totalSeconds) * 100 : 0}%`}></div>
+            <div
+              class="fill deep"
+              style={`width:${totalSeconds ? (deepSeconds / totalSeconds) * 100 : 0}%`}
+            ></div>
           </div>
           <div class="dur">{secondsToHhMm(deepSeconds)}</div>
         </div>
@@ -174,7 +171,10 @@
         <div class="row barRow">
           <div class="label2">REM Sleep</div>
           <div class="bar">
-            <div class="fill rem" style={`width:${totalSeconds ? (remSeconds / totalSeconds) * 100 : 0}%`}></div>
+            <div
+              class="fill rem"
+              style={`width:${totalSeconds ? (remSeconds / totalSeconds) * 100 : 0}%`}
+            ></div>
           </div>
           <div class="dur">{secondsToHhMm(remSeconds)}</div>
         </div>
@@ -189,7 +189,6 @@
 </div>
 
 <style>
-  /* BELANGRIJK: geen witte overlay, geen blur, geen radial glow */
   .page {
     position: relative;
     min-height: 100dvh;
@@ -216,75 +215,34 @@
     border-radius: 999px;
     border: 1px solid rgba(255,255,255,0.10);
     background: rgba(0,0,0,0.22);
-    color: rgba(255,255,255,0.95);
+    color: white;
     font-size: 20px;
     cursor: pointer;
   }
 
-  .nav:hover {
-    background: rgba(0,0,0,0.30);
-  }
-
   .dateBlock {
     text-align: center;
-    line-height: 1.1;
   }
 
-  .weekday {
-    font-size: 12px;
-    opacity: 0.85;
-    text-transform: lowercase;
-  }
-
+  .weekday,
   .date {
     font-size: 12px;
     opacity: 0.85;
-    margin-top: 4px;
   }
 
   .moonWrap {
     display: grid;
     place-items: center;
-    margin-top: 18px;
-    margin-bottom: 16px;
-  }
-
-  .moon {
-    width: 128px;
-    height: 128px;
-    border-radius: 999px;
-
-    /* maan texture basic */
-    background:
-      radial-gradient(circle at 30% 30%, rgba(255,255,255,0.20), rgba(255,255,255,0.06) 60%, rgba(255,255,255,0.02) 100%),
-      radial-gradient(circle at 65% 55%, rgba(0,0,0,0.16), transparent 55%);
-
-    display: grid;
-    place-content: center;
-    text-align: center;
-  }
-
-  .pct {
-    font-size: 26px;
-    font-weight: 650;
-    letter-spacing: 0.2px;
-  }
-
-  .sub {
-    font-size: 12px;
-    opacity: 0.80;
-    margin-top: 2px;
+    margin: 18px 0;
   }
 
   .card {
     margin: 0 auto;
     width: min(420px, 92vw);
     border-radius: 18px;
-    padding: 14px 14px 12px;
-
+    padding: 14px;
     background: rgba(0,0,0,0.28);
     border: 1px solid rgba(255,255,255,0.10);
-    /* GEEN backdrop-filter: dat geeft vaak die witte waas */
   }
 
   .row {
@@ -295,17 +253,6 @@
 
   .times {
     grid-template-columns: 1fr 1fr;
-    margin-top: 0;
-  }
-
-  .t .label {
-    font-size: 11px;
-    opacity: 0.75;
-  }
-
-  .t .value {
-    font-size: 13px;
-    margin-top: 2px;
   }
 
   .t.right {
@@ -317,11 +264,6 @@
     align-items: center;
   }
 
-  .label2 {
-    font-size: 12px;
-    opacity: 0.85;
-  }
-
   .bar {
     height: 10px;
     border-radius: 999px;
@@ -330,37 +272,27 @@
   }
 
   .fill {
-    height: 100%;
-    border-radius: 999px;
-  }
+  height: 100%;
+  display: block;
+  border-radius: 999px;
+}
 
-  .fill.light { background: rgba(140, 190, 255, 0.95); }
-  .fill.deep  { background: rgba(150, 140, 255, 0.95); }
-  .fill.rem   { background: rgba(255, 225, 140, 0.95); }
+
+  .fill.light { background: rgba(140,190,255,0.95); }
+  .fill.deep  { background: rgba(150,140,255,0.95); }
+  .fill.rem   { background: rgba(255,225,140,0.95); }
 
   .dur {
     text-align: right;
     font-size: 12px;
-    opacity: 0.90;
-  }
-
-  .dur.strong {
-    font-weight: 650;
-  }
-
-  .total {
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    margin-top: 12px;
   }
 
   .state {
     margin-top: 28px;
     text-align: center;
-    opacity: 0.85;
   }
 
   .state.error {
-    color: rgba(255, 140, 140, 0.95);
+    color: rgba(255,140,140,0.95);
   }
 </style>
