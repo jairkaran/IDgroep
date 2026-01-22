@@ -1,186 +1,126 @@
 <script>
-    import { secondsToHrsMin } from "$lib/utils/time.js";
+  export let sleep = null;
 
-    export let sleep;
+  function fmtHM(seconds) {
+    if (!seconds || seconds <= 0) return '0 hrs 0 min';
+    const h = Math.floor(seconds / 3600);
+    const m = Math.round((seconds % 3600) / 60);
+    return `${h} hrs ${m} min`;
+  }
 
-    // Polar hypnogram codes (zoals in jouw JSON)
-    // 0 = awake, 1 = light, 3 = deep, 4 = rem
-    const STAGE = {
-        awake: 0,
-        light: 1,
-        deep: 3,
-        rem: 4,
-    };
+  function pct(part, total) {
+    if (!total) return 0;
+    return Math.max(0, Math.min(100, (part / total) * 100));
+  }
 
-    $: hypnoEntries = sleep?.hypnogram ? Object.entries(sleep.hypnogram) : [];
+  $: total = sleep ? (sleep.light_sleep + sleep.deep_sleep + sleep.rem_sleep) : 0;
 
-    // hypnogram keys zijn HH:MM strings, we mappen dat naar minutes since midnight
-    function toMinutes(hhmm) {
-        const [h, m] = hhmm.split(":").map(Number);
-        return h * 60 + m;
-    }
-
-    // compacte segments maken zodat we geen 2000 losse blokjes renderen
-    function buildSegments(entries) {
-        if (!entries.length) return [];
-
-        const sorted = entries
-            .map(([t, v]) => ({ t, v, min: toMinutes(t) }))
-            .sort((a, b) => a.min - b.min);
-
-        const segs = [];
-        let start = sorted[0].min;
-        let prev = sorted[0].min;
-        let val = sorted[0].v;
-
-        for (let i = 1; i < sorted.length; i++) {
-            const cur = sorted[i];
-            const gap = cur.min - prev;
-
-            // als tijd springt of waarde verandert, segment afsluiten
-            if (cur.v !== val || gap > 10) {
-                segs.push({ from: start, to: prev + 2, v: val });
-                start = cur.min;
-                val = cur.v;
-            }
-            prev = cur.min;
-        }
-
-        segs.push({ from: start, to: prev + 2, v: val });
-
-        // totale range
-        const minStart = segs[0]?.from ?? 0;
-        const maxEnd = segs[segs.length - 1]?.to ?? 1;
-
-        return segs.map((s) => ({
-            ...s,
-            leftPct: ((s.from - minStart) / (maxEnd - minStart)) * 100,
-            widthPct: ((s.to - s.from) / (maxEnd - minStart)) * 100,
-        }));
-    }
-
-    $: segments = buildSegments(hypnoEntries);
-
-    function isStage(v, stage) {
-        return v === stage;
-    }
-
-    function stageSegments(stageCode) {
-        // render alleen stukken waar de fase gelijk is aan stageCode
-        return segments.filter((s) => isStage(s.v, stageCode));
-    }
-
-    $: lightText = secondsToHrsMin(sleep?.light_sleep ?? 0);
-    $: deepText = secondsToHrsMin(sleep?.deep_sleep ?? 0);
-    $: remText = secondsToHrsMin(sleep?.rem_sleep ?? 0);
+  $: lightPct = pct(sleep?.light_sleep ?? 0, total);
+  $: deepPct = pct(sleep?.deep_sleep ?? 0, total);
+  $: remPct = pct(sleep?.rem_sleep ?? 0, total);
 </script>
 
 <div class="wrap">
-    <div class="row">
-        <div class="rowTop">
-            <div class="name">Light Sleep:</div>
-            <div class="value">{lightText}</div>
-        </div>
-        <div class="bar">
-            {#each stageSegments(STAGE.light) as s (s.from + "-" + s.to)}
-                <span
-                    class="seg light"
-                    style="left: {s.leftPct}%; width: {Math.max(
-                        s.widthPct,
-                        0.6,
-                    )}%;"
-                />
-            {/each}
-        </div>
+  <div class="row">
+    <div class="left">
+      <div class="k">Light sleep:</div>
+      <div class="v">{fmtHM(sleep?.light_sleep ?? 0)}</div>
     </div>
+    <div class="bar">
+      <span class="fill light" style="width:{lightPct}%"></span>
+    </div>
+  </div>
 
-    <div class="row">
-        <div class="rowTop">
-            <div class="name">Deep sleep:</div>
-            <div class="value">{deepText}</div>
-        </div>
-        <div class="bar">
-            {#each stageSegments(STAGE.deep) as s (s.from + "-" + s.to)}
-                <span>
-                    class="seg deep" style="left: {s.leftPct}%; width: {Math.max(
-                        s.widthPct,
-                        0.6,
-                    )}%;"
-                </span>
-            {/each}
-        </div>
+  <div class="row">
+    <div class="left">
+      <div class="k">Deep sleep:</div>
+      <div class="v">{fmtHM(sleep?.deep_sleep ?? 0)}</div>
     </div>
+    <div class="bar">
+      <span class="fill deep" style="width:{deepPct}%"></span>
+    </div>
+  </div>
 
-    <div class="row">
-        <div class="rowTop">
-            <div class="name">REM Sleep:</div>
-            <div class="value">{remText}</div>
-        </div>
-        <div class="bar">
-            {#each stageSegments(STAGE.rem) as s (s.from + "-" + s.to)}
-                <span>
-                    class="seg rem" style="left: {s.leftPct}%; width: {Math.max(
-                        s.widthPct,
-                        0.6,
-                    )}%;"
-                </span>
-            {/each}
-        </div>
+  <div class="row">
+    <div class="left">
+      <div class="k">REM sleep:</div>
+      <div class="v">{fmtHM(sleep?.rem_sleep ?? 0)}</div>
     </div>
+    <div class="bar">
+      <span class="fill rem" style="width:{remPct}%"></span>
+    </div>
+  </div>
+
+  <div class="total">
+    <div class="k">Total sleep:</div>
+    <div class="v">{fmtHM(total)}</div>
+  </div>
 </div>
 
 <style>
-    .wrap {
-        display: grid;
-        gap: 14px;
-        color: white;
-    }
+  .wrap {
+    display: grid;
+    gap: 10px;
+  }
 
-    .row {
-        display: grid;
-        gap: 8px;
-    }
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    align-items: center;
+    gap: 12px;
+  }
 
-    .rowTop {
-        display: flex;
-        gap: 8px;
-        align-items: baseline;
-        font-size: 14px;
-    }
+  .left {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    color: rgba(255, 255, 255, 0.92);
+  }
 
-    .name {
-        opacity: 0.9;
-    }
+  .k {
+    font-size: 13px;
+    opacity: 0.9;
+  }
 
-    .value {
-        font-weight: 700;
-    }
+  .v {
+    font-size: 13px;
+    font-weight: 700;
+    opacity: 0.95;
+  }
 
-    .bar {
-        position: relative;
-        height: 26px;
-        border-radius: 10px;
-        background: rgba(255, 255, 255, 0.08);
-        overflow: hidden;
-    }
+  .bar {
+    height: 10px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+    overflow: hidden;
+  }
 
-    .seg {
-        position: absolute;
-        top: 3px;
-        height: 20px;
-        border-radius: 6px;
-        opacity: 0.95;
-    }
+  .fill {
+    height: 100%;
+    display: block;
+    border-radius: 999px;
+  }
 
-    .seg.light {
-        background: rgba(170, 160, 255, 0.9);
-    }
+  .fill.light {
+    background: rgba(145, 205, 255, 0.85);
+    box-shadow: 0 0 16px rgba(145, 205, 255, 0.22);
+  }
 
-    .seg.deep {
-        background: rgba(110, 90, 255, 0.9);
-    }
+  .fill.deep {
+    background: rgba(165, 155, 255, 0.9);
+    box-shadow: 0 0 16px rgba(165, 155, 255, 0.22);
+  }
 
-    .seg.rem {
-        background: rgba(120, 190, 255, 0.9);
-    }
+  .fill.rem {
+    background: rgba(255, 220, 140, 0.9);
+    box-shadow: 0 0 18px rgba(255, 220, 140, 0.25);
+  }
+
+  .total {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-top: 2px;
+    color: rgba(255, 255, 255, 0.92);
+  }
 </style>

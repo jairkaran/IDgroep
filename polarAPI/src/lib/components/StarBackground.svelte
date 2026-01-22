@@ -1,154 +1,240 @@
 <script>
-    import { mulberry32, hashStringToSeed } from "$lib/utils/seededRandom.js";
+  // Star types:
+  // small  = light sleep (light blue)
+  // medium = deep sleep (clear/bright white)
+  // big    = REM sleep (yellow star with points)
 
-    export let sleep; // jouw sleep JSON
-    export let seedKey = ""; // bijv. date "2025-12-01" voor stabiele layout
-    export let density = 1; // optioneel, 1 = normaal, 1.2 = iets meer sterren
+  export let seed = 'default';
+  export let lightSeconds = 0;
+  export let deepSeconds = 0;
+  export let remSeconds = 0;
 
-    function clamp(n, min, max) {
-        return Math.max(min, Math.min(max, n));
+  // Optional: override total density (handig om het "meer sterren" gevoel snel te tunen)
+  export let density = 1.0;
+
+  const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+
+  // Simple seeded RNG (deterministic)
+  function xmur3(str) {
+    let h = 1779033703 ^ str.length;
+    for (let i = 0; i < str.length; i++) {
+      h = Math.imul(h ^ str.charCodeAt(i), 3432918353);
+      h = (h << 13) | (h >>> 19);
+    }
+    return function () {
+      h = Math.imul(h ^ (h >>> 16), 2246822507);
+      h = Math.imul(h ^ (h >>> 13), 3266489909);
+      return (h ^= h >>> 16) >>> 0;
+    };
+  }
+
+  function mulberry32(a) {
+    return function () {
+      let t = (a += 0x6d2b79f5);
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  function makeStars() {
+    const total = Math.max(1, lightSeconds + deepSeconds + remSeconds);
+
+    const pLight = lightSeconds / total;
+    const pDeep = deepSeconds / total;
+    const pRem = remSeconds / total;
+
+    // Baseline sterren: bewust "veel" (zoals concept)
+    // Je kunt deze multipliers later nog hoger zetten als je nóg meer wilt.
+    const BASE = Math.round(220 * density); // totaalgevoel
+    const smallCount = clamp(Math.round(BASE * (0.55 + 0.65 * pLight)), 120, 520);
+    const mediumCount = clamp(Math.round(BASE * (0.25 + 0.55 * pDeep)), 60, 360);
+    const bigCount = clamp(Math.round(BASE * (0.08 + 0.35 * pRem)), 18, 160);
+
+    const seedFn = xmur3(String(seed));
+    const rand = mulberry32(seedFn());
+
+    const stars = [];
+
+    // helper: maak coords met iets meer dichtheid rondom het midden
+    function sampleXY() {
+      // mix uniform + centre bias
+      const u = rand();
+      const v = rand();
+      const bias = rand() < 0.45;
+
+      if (!bias) {
+        return { x: u * 100, y: v * 100 };
+      }
+
+      // centre biased
+      const cx = 50 + (u - 0.5) * 70;
+      const cy = 50 + (v - 0.5) * 90;
+      return { x: clamp(cx, 0, 100), y: clamp(cy, 0, 100) };
     }
 
-    // seconden -> minuten
-    function mins(sec) {
-        return Math.round((sec ?? 0) / 60);
+    function twinkle() {
+      // variatie in glinstering
+      const dur = 2.2 + rand() * 3.8; // 2.2s - 6s
+      const delay = rand() * 4.0; // 0 - 4s
+      const maxOpacity = 0.45 + rand() * 0.55; // 0.45 - 1
+      const scale = 0.85 + rand() * 0.4; // 0.85 - 1.25
+      return { dur, delay, maxOpacity, scale };
     }
 
-    // Sterren tellen obv slaapduur, met caps zodat het rustig blijft
-    function computeCounts(s) {
-        const lightM = mins(s?.light_sleep);
-        const deepM = mins(s?.deep_sleep);
-        const remM = mins(s?.rem_sleep);
-
-        // 1 ster per X minuten (tweakbaar)
-        const small = clamp(Math.round((lightM / 8) * density), 12, 120);
-        const medium = clamp(Math.round((deepM / 10) * density), 8, 80);
-        const large = clamp(Math.round((remM / 12) * density), 4, 45);
-
-        return { small, medium, large };
+    // SMALL stars (light blue)
+    for (let i = 0; i < smallCount; i++) {
+      const { x, y } = sampleXY();
+      const t = twinkle();
+      const size = 1 + rand() * 1.6; // 1 - 2.6px
+      stars.push({
+        kind: 'small',
+        x,
+        y,
+        size,
+        ...t
+      });
     }
 
-    function makeStars({ small, medium, large }, seedStr) {
-        const seed = hashStringToSeed(seedStr || "default-seed");
-        const rnd = mulberry32(seed);
-
-        const stars = [];
-        const pushStars = (count, kind) => {
-            for (let i = 0; i < count; i++) {
-                const x = rnd() * 100;
-                const y = rnd() * 100;
-
-                // Kleine variatie in helderheid en grootte binnen de categorie
-                const twinkle = rnd(); // 0..1
-                const alpha = 0.35 + rnd() * 0.55; // 0.35..0.9
-
-                // Size ranges per type (in px)
-                let size;
-                if (kind === "small") size = 0.8 + rnd() * 1.4; // 0.8..2.2
-                if (kind === "medium") size = 1.6 + rnd() * 2.2; // 1.6..3.8
-                if (kind === "large") size = 2.6 + rnd() * 3.6; // 2.6..6.2
-
-                // Soms een “glow” bij large sterren
-                const glow = kind === "large" ? (rnd() < 0.35 ? 1 : 0) : 0;
-
-                // Twinkle speed iets anders per type
-                const speed =
-                    kind === "small"
-                        ? 2.8 + rnd() * 2.2
-                        : kind === "medium"
-                          ? 3.6 + rnd() * 2.8
-                          : 4.4 + rnd() * 3.6;
-
-                const delay = rnd() * 2.5;
-
-                stars.push({
-                    id: `${kind}-${i}`,
-                    kind,
-                    x,
-                    y,
-                    size,
-                    alpha,
-                    glow,
-                    speed,
-                    delay,
-                    twinkle,
-                });
-            }
-        };
-
-        pushStars(small, "small");
-        pushStars(medium, "medium");
-        pushStars(large, "large");
-
-        // Optioneel: beetje sorteren zodat grote sterren niet allemaal “bovenop” liggen
-        // (niet echt overlap-preventie, wel visueel rustiger)
-        return stars.sort((a, b) => a.size - b.size);
+    // MEDIUM stars (brighter white)
+    for (let i = 0; i < mediumCount; i++) {
+      const { x, y } = sampleXY();
+      const t = twinkle();
+      const size = 1.8 + rand() * 2.2; // 1.8 - 4px
+      stars.push({
+        kind: 'medium',
+        x,
+        y,
+        size,
+        ...t
+      });
     }
 
-    $: counts = computeCounts(sleep);
-    $: stars = makeStars(counts, seedKey || sleep?.date || "");
+    // BIG stars (yellow star shape with points)
+    for (let i = 0; i < bigCount; i++) {
+      const { x, y } = sampleXY();
+      const t = twinkle();
+      const size = 6 + rand() * 10; // 6 - 16px
+      stars.push({
+        kind: 'big',
+        x,
+        y,
+        size,
+        ...t
+      });
+    }
+
+    return stars;
+  }
+
+  $: stars = makeStars();
 </script>
 
-<div class="stars" aria-hidden="true">
-    {#each stars as s (s.id)}
-        <span>
-            class="star {s.kind}
-            {s.glow ? "glow" : ""}" style=" left: {s.x}%; top: {s.y}%; width: {s.size}px;
-            height: {s.size}px; opacity: {s.alpha}; animation-duration: {s.speed}s;
-            animation-delay: {s.delay}s; "
-        </span>
-    {/each}
+<div class="sky" aria-hidden="true">
+  {#each stars as s, i (i)}
+    {#if s.kind === 'big'}
+      <span
+        class="star big"
+        style="
+          left: {s.x}%;
+          top: {s.y}%;
+          width: {s.size}px;
+          height: {s.size}px;
+          --twDur: {s.dur}s;
+          --twDelay: {s.delay}s;
+          --twMax: {s.maxOpacity};
+          --twScale: {s.scale};
+        "></span>
+    {:else if s.kind === 'medium'}
+      <span
+        class="star medium"
+        style="
+          left: {s.x}%;
+          top: {s.y}%;
+          width: {s.size}px;
+          height: {s.size}px;
+          --twDur: {s.dur}s;
+          --twDelay: {s.delay}s;
+          --twMax: {s.maxOpacity};
+          --twScale: {s.scale};
+        "></span>
+    {:else}
+      <span
+        class="star small"
+        style="
+          left: {s.x}%;
+          top: {s.y}%;
+          width: {s.size}px;
+          height: {s.size}px;
+          --twDur: {s.dur}s;
+          --twDelay: {s.delay}s;
+          --twMax: {s.maxOpacity};
+          --twScale: {s.scale};
+        "></span>
+    {/if}
+  {/each}
 </div>
 
 <style>
-    .stars {
-        position: absolute;
-        inset: 0;
-        overflow: hidden;
-        pointer-events: none;
-        z-index: 0;
-    }
+  .sky {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
 
-    .star {
-        position: absolute;
-        border-radius: 999px;
-        background: rgba(255, 255, 255, 0.95);
-        transform: translate(-50%, -50%);
-        animation-name: twinkle;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-    }
+    /* géén witte gloed overlay */
+    background: linear-gradient(180deg, rgba(12, 20, 44, 1) 0%, rgba(7, 10, 22, 1) 100%);
+  }
 
-    .star.small {
-        filter: blur(0px);
-    }
+  .star {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    animation: twinkle var(--twDur) ease-in-out infinite;
+    animation-delay: var(--twDelay);
+    will-change: transform, opacity;
+  }
 
-    .star.medium {
-        filter: blur(0.2px);
-    }
+  /* Small: licht blauw, subtiel */
+  .star.small {
+    border-radius: 999px;
+    background: rgba(150, 205, 255, 0.85);
+  }
 
-    .star.large {
-        filter: blur(0.25px);
-    }
+  /* Medium: helderder, iets duidelijker */
+  .star.medium {
+    border-radius: 999px;
+    background: rgba(245, 248, 255, 0.95);
+    box-shadow: 0 0 6px rgba(245, 248, 255, 0.25);
+  }
 
-    .star.glow {
-        box-shadow:
-            0 0 10px rgba(255, 255, 255, 0.35),
-            0 0 18px rgba(170, 160, 255, 0.18);
-    }
+  /* Big: geel met punten */
+  .star.big {
+    background: rgba(255, 220, 140, 0.95);
+    clip-path: polygon(
+      50% 0%,
+      60% 35%,
+      100% 50%,
+      60% 65%,
+      50% 100%,
+      40% 65%,
+      0% 50%,
+      40% 35%
+    );
+    box-shadow: 0 0 10px rgba(255, 220, 140, 0.22);
+  }
 
-    @keyframes twinkle {
-        0% {
-            transform: translate(-50%, -50%) scale(0.92);
-            opacity: 0.45;
-        }
-        50% {
-            transform: translate(-50%, -50%) scale(1.08);
-            opacity: 0.95;
-        }
-        100% {
-            transform: translate(-50%, -50%) scale(0.92);
-            opacity: 0.45;
-        }
+  @keyframes twinkle {
+    0% {
+      opacity: 0.35;
+      transform: translate(-50%, -50%) scale(0.9);
     }
+    50% {
+      opacity: var(--twMax);
+      transform: translate(-50%, -50%) scale(var(--twScale));
+    }
+    100% {
+      opacity: 0.4;
+      transform: translate(-50%, -50%) scale(0.95);
+    }
+  }
 </style>
