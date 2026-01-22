@@ -1,6 +1,6 @@
 import { redirect, error } from '@sveltejs/kit';
 import { env } from '$env/dynamic/private';
-import { saveTokens } from '$lib/server/polarTokenStore.js';
+
 
 function basicAuth(id, secret) {
   return 'Basic ' + Buffer.from(`${id}:${secret}`).toString('base64');
@@ -38,14 +38,6 @@ export async function GET({ url }) {
     console.log('Token exchange failed:', data);
     throw error(res.status, 'Token exchange failed');
   }
-
-  saveTokens({
-    access_token: data.access_token,
-    refresh_token: data.refresh_token,
-    token_type: data.token_type,
-    expires_in: data.expires_in,
-    obtained_at: Date.now()
-  });
 
   throw redirect(302, '/api/polar/register');
 }
