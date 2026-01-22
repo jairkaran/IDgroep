@@ -1,29 +1,21 @@
 import { json, error } from "@sveltejs/kit";
 
+// ✅ let op: 'sleep' (lowercase)
 const files = import.meta.glob("$lib/bin/sleep/*.json", { eager: true });
-
-function pickDateFile(date) {
-  const suffix = `/${date}.json`;
-  const key = Object.keys(files).find((k) => k.endsWith(suffix));
-  if (!key) return null;
-
-  const mod = files[key];
-  return mod?.default ?? mod;
-}
 
 export function GET({ params }) {
   const { date } = params;
 
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
-    throw error(400, `Invalid date format: ${date}`);
+  // vind exact het bestand dat eindigt op /YYYY-MM-DD.json
+  const matchKey = Object.keys(files).find((p) => p.endsWith(`/${date}.json`));
+
+  if (!matchKey) {
+    throw error(404, `No sleep file for ${date}`);
   }
 
-  const data = pickDateFile(date);
-  if (!data) {
-    throw error(404, `No bin sleep file for ${date}`);
-  }
+  // eager glob geeft modules terug: default export is de JSON
+  const mod = files[matchKey];
+  const data = mod?.default ?? mod;
 
-  return json({ ok: true, source: "bin", data }, {
-    headers: { "cache-control": "no-store" }
-  });
+  return json({ ok: true, source: matchKey, data }, { headers: { "cache-control": "no-store" } });
 }

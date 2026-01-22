@@ -8,3 +8,4 @@ export function GET() {
     keys: Object.keys(files).slice(0, 50) // eerste 50 is genoeg
   });
 }
+
