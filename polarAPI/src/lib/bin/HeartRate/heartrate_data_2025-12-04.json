@@ -1,0 +1,8058 @@
+{
+    "polar_user": "https://polaraccesslink.com/v3/users/63617653",
+    "date": "2025-12-04",
+    "heart_rate_samples": [
+        {
+            "heart_rate": 60,
+            "sample_time": "00:00:11"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "00:05:11"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "00:08:15"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "00:08:16"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "00:08:17"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "00:08:18"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "00:08:19"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:20"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:21"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:22"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:23"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:24"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:25"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:26"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:27"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:28"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:29"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:30"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:31"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:32"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:33"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:34"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:35"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:36"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:37"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "00:08:38"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "00:08:39"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "00:08:40"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "00:08:41"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "00:08:42"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "00:08:43"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "00:08:44"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "00:08:45"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "00:08:46"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "00:08:47"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "00:08:48"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "00:08:49"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "00:08:50"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "00:08:51"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "00:08:52"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "00:08:53"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "00:08:54"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "00:08:55"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "00:08:56"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:08:57"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:08:58"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:08:59"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:00"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:01"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:02"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:03"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:04"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:05"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:06"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:07"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:08"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:09"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:10"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:11"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:12"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:13"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:14"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:15"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:16"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:17"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:18"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:19"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:20"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:21"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:22"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:23"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:24"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:25"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:26"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:27"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:28"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:29"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:30"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:31"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:32"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:33"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:34"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:35"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:36"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:37"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:38"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:39"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:40"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:41"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:42"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:43"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "00:09:44"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "00:14:45"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "00:18:15"
+        },
+        {
+            "heart_rate": 53,
+            "sample_time": "00:23:15"
+        },
+        {
+            "heart_rate": 53,
+            "sample_time": "00:28:15"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "00:33:15"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "00:38:15"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "00:43:15"
+        },
+        {
+            "heart_rate": 59,
+            "sample_time": "00:48:15"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "00:53:15"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "00:58:15"
+        },
+        {
+            "heart_rate": 53,
+            "sample_time": "01:03:15"
+        },
+        {
+            "heart_rate": 51,
+            "sample_time": "01:08:15"
+        },
+        {
+            "heart_rate": 50,
+            "sample_time": "01:13:15"
+        },
+        {
+            "heart_rate": 50,
+            "sample_time": "01:18:15"
+        },
+        {
+            "heart_rate": 50,
+            "sample_time": "01:23:15"
+        },
+        {
+            "heart_rate": 50,
+            "sample_time": "01:28:15"
+        },
+        {
+            "heart_rate": 51,
+            "sample_time": "01:33:15"
+        },
+        {
+            "heart_rate": 51,
+            "sample_time": "01:38:15"
+        },
+        {
+            "heart_rate": 51,
+            "sample_time": "01:43:15"
+        },
+        {
+            "heart_rate": 50,
+            "sample_time": "01:48:15"
+        },
+        {
+            "heart_rate": 51,
+            "sample_time": "01:53:15"
+        },
+        {
+            "heart_rate": 58,
+            "sample_time": "01:58:15"
+        },
+        {
+            "heart_rate": 58,
+            "sample_time": "02:03:15"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "02:08:15"
+        },
+        {
+            "heart_rate": 58,
+            "sample_time": "02:13:15"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "02:18:15"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "02:23:15"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "02:28:15"
+        },
+        {
+            "heart_rate": 53,
+            "sample_time": "02:33:15"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "02:38:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "02:43:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "02:48:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "02:53:15"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "02:58:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "03:03:15"
+        },
+        {
+            "heart_rate": 59,
+            "sample_time": "03:08:15"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "03:13:15"
+        },
+        {
+            "heart_rate": 58,
+            "sample_time": "03:18:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "03:23:15"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "03:28:15"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "03:33:15"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "03:38:15"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "03:43:15"
+        },
+        {
+            "heart_rate": 53,
+            "sample_time": "03:48:15"
+        },
+        {
+            "heart_rate": 50,
+            "sample_time": "03:53:15"
+        },
+        {
+            "heart_rate": 53,
+            "sample_time": "03:58:15"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "04:03:15"
+        },
+        {
+            "heart_rate": 52,
+            "sample_time": "04:08:15"
+        },
+        {
+            "heart_rate": 52,
+            "sample_time": "04:13:15"
+        },
+        {
+            "heart_rate": 53,
+            "sample_time": "04:18:15"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "04:23:15"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "04:28:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "04:33:15"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "04:38:15"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "04:43:15"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "04:48:15"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "04:53:15"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "04:58:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "05:03:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "05:08:15"
+        },
+        {
+            "heart_rate": 53,
+            "sample_time": "05:13:15"
+        },
+        {
+            "heart_rate": 53,
+            "sample_time": "05:18:15"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "05:23:15"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "05:28:15"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "05:33:15"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "05:38:15"
+        },
+        {
+            "heart_rate": 59,
+            "sample_time": "05:43:15"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "05:48:15"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "05:53:15"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "05:58:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "06:03:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "06:08:15"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "06:13:15"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "06:18:15"
+        },
+        {
+            "heart_rate": 52,
+            "sample_time": "06:23:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "06:28:15"
+        },
+        {
+            "heart_rate": 53,
+            "sample_time": "06:33:15"
+        },
+        {
+            "heart_rate": 53,
+            "sample_time": "06:38:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "06:43:15"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "06:48:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "06:53:15"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "06:58:15"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "07:03:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "07:08:15"
+        },
+        {
+            "heart_rate": 51,
+            "sample_time": "07:13:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "07:18:15"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "07:23:15"
+        },
+        {
+            "heart_rate": 62,
+            "sample_time": "07:28:15"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "07:33:15"
+        },
+        {
+            "heart_rate": 58,
+            "sample_time": "07:38:15"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "07:43:15"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "07:48:14"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "07:53:14"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "07:58:14"
+        },
+        {
+            "heart_rate": 85,
+            "sample_time": "08:14:06"
+        },
+        {
+            "heart_rate": 81,
+            "sample_time": "08:19:07"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:21:37"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:21:38"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:21:39"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:21:40"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:21:41"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:42"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:43"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:44"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:45"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:46"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:47"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:48"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:49"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:50"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:51"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:52"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:53"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:54"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:55"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:56"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:57"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:58"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:21:59"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:22:00"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:01"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:02"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:03"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:04"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:05"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:06"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:07"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:08"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:09"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:10"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:11"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:12"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:13"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:14"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:15"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:16"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:17"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:18"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:19"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:20"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:21"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:22"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:23"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:24"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:25"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:26"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:27"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:28"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:29"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:30"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:31"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:32"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:33"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:34"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:35"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:36"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:37"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:38"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:39"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:40"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:41"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:42"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:43"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:44"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:45"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:46"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:47"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:48"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:49"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:50"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:51"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:52"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:53"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:54"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:55"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:56"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:57"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:58"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:22:59"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:23:00"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:23:01"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:23:02"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "08:23:03"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:04"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:05"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:06"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:07"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:08"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:09"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:10"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:11"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:12"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:13"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:14"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:15"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:16"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:17"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:18"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:19"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:20"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:21"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:22"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:23"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:24"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:25"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:26"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:27"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:28"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:29"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:30"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:31"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:32"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:33"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:34"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:35"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:36"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:37"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:38"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:39"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:40"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:41"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:42"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:43"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:44"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:45"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:46"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:47"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:48"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:49"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:50"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:51"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:52"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:53"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:54"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:55"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:56"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:57"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:58"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:23:59"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:00"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:01"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:02"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:03"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:04"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:05"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:06"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:07"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:08"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:09"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:10"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:11"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:12"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:13"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:14"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:15"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:16"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:17"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:18"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:19"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:20"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:21"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:22"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:23"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:24"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:25"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:26"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:27"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:28"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:29"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:30"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:31"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:32"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:33"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:34"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:35"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:36"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:37"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:38"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:39"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:40"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:41"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:42"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:24:43"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:24:44"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:24:45"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:24:46"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:24:47"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:24:48"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:24:49"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:24:50"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:24:51"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:24:52"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:24:53"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:24:54"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:24:55"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:24:56"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:24:57"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:24:58"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:24:59"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:00"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:01"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:02"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:03"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:04"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:05"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:06"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:07"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:08"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:09"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:10"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:11"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:12"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:13"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:14"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:15"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:16"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:17"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:18"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:19"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:20"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:21"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:22"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:23"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:24"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:25"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:26"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:27"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:28"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:29"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:30"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:31"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:32"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:33"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:34"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:35"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:36"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:37"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:38"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:39"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:25:40"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:41"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:42"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:43"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:44"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:45"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:46"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:47"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:48"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:49"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:50"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:51"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:52"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:53"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:54"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:55"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:56"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:57"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:58"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:25:59"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:00"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:01"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:02"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:03"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:04"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:05"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:06"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:07"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:08"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:09"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:10"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:11"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:12"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:13"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:14"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:15"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:16"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:17"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:18"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:19"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:20"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:21"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:22"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:23"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:24"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:25"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:26"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:27"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:28"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:29"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:30"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:31"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:32"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:33"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:34"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:35"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:36"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:37"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:38"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:39"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:40"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:41"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:42"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:43"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:44"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:45"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:46"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:26:47"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:26:48"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:26:49"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:26:50"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:26:51"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:26:52"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:26:53"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:26:54"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:26:55"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:26:56"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:26:57"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:26:58"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:26:59"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:00"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:01"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:02"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:03"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:04"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:05"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:06"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:07"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:08"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:09"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:10"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:11"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:12"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:13"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:14"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:15"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:16"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:17"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:18"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:19"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:20"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:21"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:22"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:23"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:24"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:25"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:26"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:27"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:28"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:29"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:30"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:31"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:32"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:33"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:34"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:35"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:36"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:37"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:38"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:39"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:40"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:41"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:42"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:43"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:44"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:45"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:46"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:47"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:48"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:49"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:50"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:27:51"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:27:52"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:27:53"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:27:54"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:27:55"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:27:56"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:27:57"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:27:58"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:27:59"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:00"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:01"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:02"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:03"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:04"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:05"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:06"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:07"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:08"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:09"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:10"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:11"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:12"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:13"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:14"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:15"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:16"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:17"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:18"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:19"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:20"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:21"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:22"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:23"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:24"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:25"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:26"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:27"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:28"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:29"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:30"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:31"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:32"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:33"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:34"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:28:35"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:36"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:37"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:38"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:39"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:40"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:41"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:42"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:43"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:44"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:45"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:46"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:47"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:48"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:49"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:50"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:51"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:52"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:53"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:54"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:55"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:56"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:57"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:58"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:28:59"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:00"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:01"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:02"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:03"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:04"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:05"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:06"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:07"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:08"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:09"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:10"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:11"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:12"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:13"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:14"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:15"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:16"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:17"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:18"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:19"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:20"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:21"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:22"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:23"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:24"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:25"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:26"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:27"
+        },
+        {
+            "heart_rate": 96,
+            "sample_time": "08:29:28"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:29"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:30"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:31"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:32"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:33"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:34"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:35"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:36"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:37"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:38"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:39"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:40"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:41"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:42"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:43"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:44"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:45"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:46"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:47"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:48"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:49"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:50"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:51"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:52"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:53"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:54"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:55"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:56"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:57"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:58"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "08:29:59"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:30:00"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:30:01"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:30:02"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:30:03"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:30:04"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:30:05"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:30:06"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:30:07"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:30:08"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "08:30:09"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:30:10"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:30:11"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:30:12"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:30:13"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:30:14"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:30:15"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:30:16"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:30:17"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "08:30:18"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:30:19"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:30:20"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:30:21"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:30:22"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:30:23"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:30:24"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "08:30:25"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:30:26"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "08:30:27"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "08:35:28"
+        },
+        {
+            "heart_rate": 85,
+            "sample_time": "08:36:38"
+        },
+        {
+            "heart_rate": 85,
+            "sample_time": "08:36:39"
+        },
+        {
+            "heart_rate": 85,
+            "sample_time": "08:36:40"
+        },
+        {
+            "heart_rate": 85,
+            "sample_time": "08:36:41"
+        },
+        {
+            "heart_rate": 85,
+            "sample_time": "08:36:42"
+        },
+        {
+            "heart_rate": 85,
+            "sample_time": "08:36:43"
+        },
+        {
+            "heart_rate": 85,
+            "sample_time": "08:36:44"
+        },
+        {
+            "heart_rate": 85,
+            "sample_time": "08:36:45"
+        },
+        {
+            "heart_rate": 85,
+            "sample_time": "08:36:46"
+        },
+        {
+            "heart_rate": 85,
+            "sample_time": "08:36:47"
+        },
+        {
+            "heart_rate": 85,
+            "sample_time": "08:36:48"
+        },
+        {
+            "heart_rate": 85,
+            "sample_time": "08:36:49"
+        },
+        {
+            "heart_rate": 85,
+            "sample_time": "08:36:50"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:36:51"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:36:52"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:36:53"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:36:54"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:36:55"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:36:56"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:36:57"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:36:58"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:36:59"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:00"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:01"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:02"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:03"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:04"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:05"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:06"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:07"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:08"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:09"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:10"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:11"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:12"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:13"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:14"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:15"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:16"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:17"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:18"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:19"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:20"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:21"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:22"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:23"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:24"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:25"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:26"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:27"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "08:37:28"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:29"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:30"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:31"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:32"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:33"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:34"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:35"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:36"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:37"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:38"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:39"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:40"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:41"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:42"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:43"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:44"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:45"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:46"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:47"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:48"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:49"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:50"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:51"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:52"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:53"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:54"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:55"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:56"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:57"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:58"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:37:59"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:38:00"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:38:01"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:38:02"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:38:03"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:38:04"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:38:05"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:38:06"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "08:38:07"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "08:43:08"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "08:48:08"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "08:53:08"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "08:58:08"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "09:03:08"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "09:08:08"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "09:13:08"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "09:18:08"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "09:23:08"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "09:28:08"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "09:33:08"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "09:38:08"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "09:43:08"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "09:48:07"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "09:53:07"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "09:58:07"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "10:03:07"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "10:08:07"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "10:13:07"
+        },
+        {
+            "heart_rate": 62,
+            "sample_time": "10:18:07"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "10:23:07"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "10:28:07"
+        },
+        {
+            "heart_rate": 62,
+            "sample_time": "10:33:07"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "10:38:07"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "10:43:07"
+        },
+        {
+            "heart_rate": 59,
+            "sample_time": "10:48:07"
+        },
+        {
+            "heart_rate": 62,
+            "sample_time": "10:53:07"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "10:58:07"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "11:03:07"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "11:08:07"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "11:13:07"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "11:18:07"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "11:23:07"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "11:28:07"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "11:33:07"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "11:38:07"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "11:43:07"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "11:48:07"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "11:53:07"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "11:58:07"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:15"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:16"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:17"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:18"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:19"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:20"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:21"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:22"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:23"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:24"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:25"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:26"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:27"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:28"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "11:59:29"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:30"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:31"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:32"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:33"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:34"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:35"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:36"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:37"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:38"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:39"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:40"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:41"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:42"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:43"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:44"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:45"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:46"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "11:59:47"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "11:59:48"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "11:59:49"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "11:59:50"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "11:59:51"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "11:59:52"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "11:59:53"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "11:59:54"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "11:59:55"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "11:59:56"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "11:59:57"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "11:59:58"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "11:59:59"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:00"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:01"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:02"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:03"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:04"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:05"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:06"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:07"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:08"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:09"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:10"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:11"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:12"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:13"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:14"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:15"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:16"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:17"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:18"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:19"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:20"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:21"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:22"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:23"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:24"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:25"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:26"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:27"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:28"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:29"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:30"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:31"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:32"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:33"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:34"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:35"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:36"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:37"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:38"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:39"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:40"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:41"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:42"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:43"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:44"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:45"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:46"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:47"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:48"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:49"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:50"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:51"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:52"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:53"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:54"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:55"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:56"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:57"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "12:00:58"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:00:59"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:00"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:01"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:02"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:03"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:04"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:05"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:06"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:07"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:08"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:09"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:10"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:11"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:12"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:13"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:14"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:15"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:16"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:17"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:18"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:19"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:20"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:21"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:22"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:23"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:24"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:25"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:26"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:27"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:28"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:29"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:30"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:31"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:32"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "12:01:33"
+        },
+        {
+            "heart_rate": 80,
+            "sample_time": "12:04:45"
+        },
+        {
+            "heart_rate": 80,
+            "sample_time": "12:04:46"
+        },
+        {
+            "heart_rate": 80,
+            "sample_time": "12:04:47"
+        },
+        {
+            "heart_rate": 80,
+            "sample_time": "12:04:48"
+        },
+        {
+            "heart_rate": 80,
+            "sample_time": "12:04:49"
+        },
+        {
+            "heart_rate": 80,
+            "sample_time": "12:04:50"
+        },
+        {
+            "heart_rate": 80,
+            "sample_time": "12:04:51"
+        },
+        {
+            "heart_rate": 80,
+            "sample_time": "12:04:52"
+        },
+        {
+            "heart_rate": 80,
+            "sample_time": "12:04:53"
+        },
+        {
+            "heart_rate": 80,
+            "sample_time": "12:04:54"
+        },
+        {
+            "heart_rate": 80,
+            "sample_time": "12:04:55"
+        },
+        {
+            "heart_rate": 81,
+            "sample_time": "12:04:56"
+        },
+        {
+            "heart_rate": 81,
+            "sample_time": "12:04:57"
+        },
+        {
+            "heart_rate": 81,
+            "sample_time": "12:04:58"
+        },
+        {
+            "heart_rate": 81,
+            "sample_time": "12:04:59"
+        },
+        {
+            "heart_rate": 81,
+            "sample_time": "12:05:00"
+        },
+        {
+            "heart_rate": 81,
+            "sample_time": "12:05:01"
+        },
+        {
+            "heart_rate": 81,
+            "sample_time": "12:05:02"
+        },
+        {
+            "heart_rate": 81,
+            "sample_time": "12:05:03"
+        },
+        {
+            "heart_rate": 81,
+            "sample_time": "12:05:04"
+        },
+        {
+            "heart_rate": 81,
+            "sample_time": "12:05:05"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:06"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:07"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:08"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:09"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:10"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:11"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:12"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:13"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:14"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:15"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:16"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:17"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:18"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:19"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:20"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:21"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "12:05:22"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:23"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:24"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:25"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:26"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:27"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:28"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:29"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:30"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:31"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:32"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:33"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:34"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:35"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:36"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:37"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:38"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:39"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:40"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:41"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:42"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:43"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:44"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:45"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:46"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:47"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:48"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:49"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:50"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:51"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:52"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:53"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:54"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:55"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:56"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:57"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:58"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:05:59"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:00"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:01"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:02"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:03"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:04"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:05"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:06"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:07"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:08"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:09"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:10"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:11"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:12"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:13"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:14"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:15"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:16"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:17"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:18"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:19"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:20"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "12:06:21"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:22"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:23"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:24"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:25"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:26"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:27"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:28"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:29"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:30"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:31"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:32"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:33"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:34"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:35"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:36"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:37"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:38"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:39"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:40"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:41"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:42"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:43"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:44"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:45"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:46"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:47"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:48"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:49"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:50"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:51"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:52"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:53"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:54"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:55"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:56"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:57"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:58"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:06:59"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:07:00"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:07:01"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:07:02"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "12:07:03"
+        },
+        {
+            "heart_rate": 79,
+            "sample_time": "12:12:04"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "12:17:04"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "12:22:04"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "12:27:04"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "12:32:04"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "12:37:04"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "12:42:04"
+        },
+        {
+            "heart_rate": 62,
+            "sample_time": "12:47:04"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "12:52:04"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "12:57:04"
+        },
+        {
+            "heart_rate": 59,
+            "sample_time": "13:02:04"
+        },
+        {
+            "heart_rate": 59,
+            "sample_time": "13:07:04"
+        },
+        {
+            "heart_rate": 59,
+            "sample_time": "13:12:04"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "13:17:04"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:19"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:20"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:21"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:22"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:23"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:24"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:25"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:26"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:27"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:28"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:29"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:30"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:31"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:32"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:33"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:34"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:35"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:36"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:37"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:38"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:39"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:40"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:41"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:42"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:43"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:44"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:45"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:46"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:47"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:48"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:49"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:50"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:51"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:52"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:53"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:54"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:55"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:56"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:57"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:58"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:19:59"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:20:00"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:20:01"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:20:02"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:20:03"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:20:04"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:20:05"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:20:06"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:20:07"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "13:20:08"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:20:09"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:20:10"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:20:11"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:20:12"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:20:13"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:20:14"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:20:15"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:20:16"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:20:17"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:20:18"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:20:19"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:20:20"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:20:21"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:20:22"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:20:23"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:20:24"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:20:25"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:20:26"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:20:27"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:20:28"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:20:29"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:30"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:31"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:32"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:33"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:34"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:35"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:36"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:37"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:38"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:39"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:40"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:41"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:42"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:43"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:44"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:45"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:46"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:47"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:48"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:49"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:50"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:51"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:52"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:53"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:54"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:55"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:56"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:57"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:58"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:20:59"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:21:00"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:21:01"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:21:02"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:21:03"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:21:04"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:21:05"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:21:06"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:21:07"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:21:08"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:21:09"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:21:10"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:21:11"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:21:12"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:21:13"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:21:14"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:21:15"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:21:16"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:21:17"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:21:18"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:21:19"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:21:20"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:21:21"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "13:21:22"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:23"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:24"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:25"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:26"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:27"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:28"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:29"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:30"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:31"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:32"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:33"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:34"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:35"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:36"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:37"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:38"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:39"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:40"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:41"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:42"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:43"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:44"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:45"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:46"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:21:47"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:21:48"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:21:49"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:21:50"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:21:51"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:21:52"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:21:53"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:21:54"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:21:55"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:21:56"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:21:57"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:21:58"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:21:59"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:00"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:01"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:02"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:03"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:04"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:05"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:06"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:07"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:08"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:09"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:10"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:11"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:12"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:13"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:14"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:15"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:16"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:17"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:18"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:19"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:20"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:21"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:22"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:23"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:24"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:25"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:26"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:27"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:28"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:29"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:30"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:31"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:32"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:33"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:34"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:35"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:36"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:37"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:38"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:39"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:40"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:41"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:42"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:43"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:44"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:45"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:46"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:47"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:48"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "13:22:49"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "13:27:49"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "13:32:49"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "13:37:49"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "13:42:49"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "13:47:49"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "13:52:49"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "13:57:49"
+        },
+        {
+            "heart_rate": 62,
+            "sample_time": "14:02:49"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "14:07:49"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "14:12:49"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "14:17:49"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "14:22:49"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "14:27:49"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "14:32:49"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "14:37:49"
+        },
+        {
+            "heart_rate": 59,
+            "sample_time": "14:42:49"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "14:47:49"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "14:52:49"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "14:57:49"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "15:02:49"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "15:11:24"
+        },
+        {
+            "heart_rate": 78,
+            "sample_time": "15:16:24"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "15:21:24"
+        },
+        {
+            "heart_rate": 65,
+            "sample_time": "15:26:24"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "15:31:24"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "15:36:24"
+        },
+        {
+            "heart_rate": 62,
+            "sample_time": "15:41:24"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "15:46:24"
+        },
+        {
+            "heart_rate": 62,
+            "sample_time": "15:51:24"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "15:56:24"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "16:01:23"
+        },
+        {
+            "heart_rate": 62,
+            "sample_time": "16:06:23"
+        },
+        {
+            "heart_rate": 53,
+            "sample_time": "16:11:23"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "16:16:23"
+        },
+        {
+            "heart_rate": 95,
+            "sample_time": "16:27:29"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:30"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:31"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:32"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:33"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:34"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:35"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:36"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:37"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:38"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:39"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:40"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:41"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:42"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:43"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:44"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:45"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:46"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:47"
+        },
+        {
+            "heart_rate": 94,
+            "sample_time": "16:27:48"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "16:27:49"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "16:27:50"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "16:27:51"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "16:27:52"
+        },
+        {
+            "heart_rate": 93,
+            "sample_time": "16:27:53"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "16:27:54"
+        },
+        {
+            "heart_rate": 92,
+            "sample_time": "16:27:55"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "16:27:56"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "16:27:57"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "16:27:58"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "16:27:59"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "16:28:00"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "16:28:01"
+        },
+        {
+            "heart_rate": 91,
+            "sample_time": "16:28:02"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "16:28:03"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "16:28:04"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "16:28:05"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "16:28:06"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "16:28:07"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "16:28:08"
+        },
+        {
+            "heart_rate": 90,
+            "sample_time": "16:28:09"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "16:28:10"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "16:28:11"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "16:28:12"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "16:28:13"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "16:28:14"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "16:28:15"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "16:28:16"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "16:28:17"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "16:28:18"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "16:28:19"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "16:28:20"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "16:28:21"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "16:28:22"
+        },
+        {
+            "heart_rate": 89,
+            "sample_time": "16:28:23"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:24"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:25"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:26"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:27"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:28"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:29"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:30"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:31"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:32"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:33"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:34"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:35"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:36"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:37"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:38"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:39"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:40"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:41"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:42"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:43"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:44"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:45"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:46"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:47"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:48"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:49"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:50"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:51"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:52"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:53"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:54"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:55"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:56"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:57"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "16:28:58"
+        },
+        {
+            "heart_rate": 64,
+            "sample_time": "16:33:59"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "16:38:59"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "16:43:59"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "16:48:59"
+        },
+        {
+            "heart_rate": 59,
+            "sample_time": "16:53:59"
+        },
+        {
+            "heart_rate": 59,
+            "sample_time": "16:58:59"
+        },
+        {
+            "heart_rate": 59,
+            "sample_time": "17:03:59"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "17:08:59"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "17:12:59"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "17:13:00"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "17:13:01"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "17:13:02"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "17:13:03"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "17:13:04"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "17:13:05"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "17:13:06"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "17:13:07"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "17:13:08"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "17:13:09"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "17:13:10"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "17:13:11"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "17:13:12"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "17:13:13"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "17:13:14"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "17:13:15"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "17:13:16"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "17:13:17"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "17:13:18"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "17:13:19"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "17:13:20"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "17:13:21"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "17:13:22"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "17:13:23"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "17:13:24"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "17:13:25"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "17:13:26"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "17:13:27"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "17:13:28"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "17:13:29"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "17:13:30"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "17:13:31"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "17:13:32"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "17:13:33"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "17:13:34"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:35"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:36"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:37"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:38"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:39"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:40"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:41"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:42"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:43"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:44"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:45"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:46"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:47"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:48"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:49"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:50"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:51"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:52"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:53"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:54"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:55"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:56"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:57"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "17:13:58"
+        },
+        {
+            "heart_rate": 81,
+            "sample_time": "17:18:58"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "17:23:58"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "17:28:58"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "17:30:59"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "17:31:00"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "17:31:01"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "17:31:02"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "17:31:03"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "17:31:04"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "17:31:05"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "17:31:06"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "17:31:07"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "17:31:08"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "17:31:09"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "17:31:10"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:11"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:12"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:13"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:14"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:15"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:16"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:17"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:18"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:19"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:20"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:21"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:22"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:23"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:24"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:25"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:26"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:27"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:28"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:29"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:30"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:31"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:32"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:33"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:34"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:35"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:36"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:37"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:38"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:39"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:40"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:41"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:42"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:43"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:44"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:45"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:46"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:47"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:48"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:49"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:50"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:51"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:52"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:53"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:54"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:55"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:56"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:57"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:58"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:31:59"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:00"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:01"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:02"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:03"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:04"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:05"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:06"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:07"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:08"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:09"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:10"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:11"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:12"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:13"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:14"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:15"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:16"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:17"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:18"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:19"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:20"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:21"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:22"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:23"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:24"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:25"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:26"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:27"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:28"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:29"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:30"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:31"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:32"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:33"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:34"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:35"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:36"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:37"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:38"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:39"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:40"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:41"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:42"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:43"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:44"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:45"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:46"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:47"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:48"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:49"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:50"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:51"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:52"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:53"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:54"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:55"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:56"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:57"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:58"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:32:59"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:33:00"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:33:01"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:33:02"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:33:03"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:33:04"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:33:05"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:33:06"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:33:07"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:33:08"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:33:09"
+        },
+        {
+            "heart_rate": 87,
+            "sample_time": "17:33:10"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:11"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:12"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:13"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:14"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:15"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:16"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:17"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:18"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:19"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:20"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:21"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:22"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:23"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:24"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:25"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:26"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:27"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:28"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:29"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:30"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:31"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:32"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:33"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:34"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:35"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:36"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:37"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:38"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:39"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:40"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:41"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:42"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:43"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:44"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:45"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:46"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:47"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:48"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:49"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:50"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:51"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:52"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:53"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:54"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:55"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:56"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:57"
+        },
+        {
+            "heart_rate": 88,
+            "sample_time": "17:33:58"
+        },
+        {
+            "heart_rate": 77,
+            "sample_time": "17:38:59"
+        },
+        {
+            "heart_rate": 78,
+            "sample_time": "17:43:59"
+        },
+        {
+            "heart_rate": 82,
+            "sample_time": "17:48:59"
+        },
+        {
+            "heart_rate": 81,
+            "sample_time": "17:53:59"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "17:58:59"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "18:03:59"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "18:08:59"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "18:13:59"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "18:18:59"
+        },
+        {
+            "heart_rate": 62,
+            "sample_time": "18:23:59"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "18:28:59"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "18:33:59"
+        },
+        {
+            "heart_rate": 83,
+            "sample_time": "18:38:59"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "18:43:59"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "18:48:59"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "18:53:59"
+        },
+        {
+            "heart_rate": 62,
+            "sample_time": "18:58:59"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "19:03:59"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "19:08:59"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "19:13:59"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "19:18:59"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "19:23:59"
+        },
+        {
+            "heart_rate": 84,
+            "sample_time": "19:28:59"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "19:33:59"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "19:38:59"
+        },
+        {
+            "heart_rate": 59,
+            "sample_time": "19:43:59"
+        },
+        {
+            "heart_rate": 62,
+            "sample_time": "19:48:59"
+        },
+        {
+            "heart_rate": 66,
+            "sample_time": "19:53:59"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "19:58:59"
+        },
+        {
+            "heart_rate": 59,
+            "sample_time": "20:03:59"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "20:08:59"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "20:13:59"
+        },
+        {
+            "heart_rate": 62,
+            "sample_time": "20:18:59"
+        },
+        {
+            "heart_rate": 58,
+            "sample_time": "20:23:59"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "20:28:59"
+        },
+        {
+            "heart_rate": 60,
+            "sample_time": "20:33:59"
+        },
+        {
+            "heart_rate": 62,
+            "sample_time": "20:38:59"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "20:43:59"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:07"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:08"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:09"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:10"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:11"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:12"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:13"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:14"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:15"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:16"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:17"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:18"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:19"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:20"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:21"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:22"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:23"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:24"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:25"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:26"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:27"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:28"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:29"
+        },
+        {
+            "heart_rate": 68,
+            "sample_time": "20:48:30"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "20:48:31"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "20:48:32"
+        },
+        {
+            "heart_rate": 69,
+            "sample_time": "20:48:33"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:34"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:35"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:36"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:37"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:38"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:39"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:40"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:41"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:42"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:43"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:44"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:45"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:46"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:47"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:48"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:49"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:50"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:51"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:52"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:48:53"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:48:54"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:48:55"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:48:56"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:48:57"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:48:58"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:48:59"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:49:00"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:49:01"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:49:02"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:49:03"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:49:04"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:49:05"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:49:06"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:49:07"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:08"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:09"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:10"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:11"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:12"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:13"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:14"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:15"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:16"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:17"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:18"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:19"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:20"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:21"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:22"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:23"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:24"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:25"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:26"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:27"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:28"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:29"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:30"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:31"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:32"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:33"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:34"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:35"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:36"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:37"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:38"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:49:39"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:40"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:41"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:42"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:43"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:44"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:45"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:46"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:47"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:48"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:49"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:50"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:51"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:52"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:53"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:54"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:55"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:56"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:57"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:58"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:49:59"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:50:00"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:50:01"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:50:02"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:50:03"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:04"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:05"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:06"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:07"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:08"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:09"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:10"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:11"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:12"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:13"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:14"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:15"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:16"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:17"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:18"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:19"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:20"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:21"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:22"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:23"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:24"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:25"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:26"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:27"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:50:28"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:29"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:30"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:31"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:32"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:33"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "20:50:34"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "20:50:35"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "20:50:36"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "20:50:37"
+        },
+        {
+            "heart_rate": 76,
+            "sample_time": "20:50:38"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:39"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:40"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:41"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:42"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:43"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:44"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:45"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:46"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:47"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:48"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:49"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:50"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:51"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:52"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:53"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:54"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:55"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:56"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:57"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:58"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:50:59"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:51:00"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:51:01"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:51:02"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:51:03"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:51:04"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:51:05"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:51:06"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:51:07"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:51:08"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:51:09"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:51:10"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:51:11"
+        },
+        {
+            "heart_rate": 75,
+            "sample_time": "20:51:12"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:51:13"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:51:14"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:51:15"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:51:16"
+        },
+        {
+            "heart_rate": 74,
+            "sample_time": "20:51:17"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:51:18"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:51:19"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:51:20"
+        },
+        {
+            "heart_rate": 73,
+            "sample_time": "20:51:21"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:51:22"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:51:23"
+        },
+        {
+            "heart_rate": 72,
+            "sample_time": "20:51:24"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:51:25"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:51:26"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:51:27"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:51:28"
+        },
+        {
+            "heart_rate": 71,
+            "sample_time": "20:51:29"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:51:30"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:51:31"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:51:32"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:51:33"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:51:34"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:51:35"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "20:51:36"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "20:56:37"
+        },
+        {
+            "heart_rate": 58,
+            "sample_time": "21:01:37"
+        },
+        {
+            "heart_rate": 59,
+            "sample_time": "21:06:37"
+        },
+        {
+            "heart_rate": 67,
+            "sample_time": "21:11:37"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "21:16:37"
+        },
+        {
+            "heart_rate": 63,
+            "sample_time": "21:21:37"
+        },
+        {
+            "heart_rate": 61,
+            "sample_time": "21:26:37"
+        },
+        {
+            "heart_rate": 86,
+            "sample_time": "21:31:37"
+        },
+        {
+            "heart_rate": 70,
+            "sample_time": "21:36:37"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "21:41:37"
+        },
+        {
+            "heart_rate": 53,
+            "sample_time": "21:46:37"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "21:51:37"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "21:56:37"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "22:01:37"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "22:06:37"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "22:11:37"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "22:16:37"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "22:21:37"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "22:26:37"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "22:31:37"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "22:36:37"
+        },
+        {
+            "heart_rate": 58,
+            "sample_time": "22:41:37"
+        },
+        {
+            "heart_rate": 58,
+            "sample_time": "22:46:37"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "22:51:37"
+        },
+        {
+            "heart_rate": 58,
+            "sample_time": "22:56:37"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "23:01:37"
+        },
+        {
+            "heart_rate": 54,
+            "sample_time": "23:06:37"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "23:11:37"
+        },
+        {
+            "heart_rate": 55,
+            "sample_time": "23:16:37"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "23:21:37"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "23:26:37"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "23:31:37"
+        },
+        {
+            "heart_rate": 56,
+            "sample_time": "23:36:37"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "23:41:37"
+        },
+        {
+            "heart_rate": 58,
+            "sample_time": "23:46:37"
+        },
+        {
+            "heart_rate": 58,
+            "sample_time": "23:51:37"
+        },
+        {
+            "heart_rate": 57,
+            "sample_time": "23:56:37"
+        }
+    ]
+}
